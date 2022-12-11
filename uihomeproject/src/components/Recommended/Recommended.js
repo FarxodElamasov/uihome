@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
 import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
 import CardMedia from '@mui/material/CardMedia';
@@ -17,24 +16,7 @@ import ShareIcon from '@mui/icons-material/Share';
 import SquareFootIcon from '@mui/icons-material/SquareFoot';
 import { Grid } from '@mui/material';
 
-const ExpandMore = styled((props) => {
-    const { expand, ...other } = props;
-    return <IconButton {...other} />;
-})(({ theme, expand }) => ({
-    transform: !expand ? 'rotate(0deg)' : 'rotate(180deg)',
-    marginLeft: 'auto',
-    transition: theme.transitions.create('transform', {
-        duration: theme.transitions.duration.shortest,
-    }),
-}));
-
 export default function RecipeReviewCard() {
-    const [expanded, setExpanded] = React.useState(false);
-
-    const handleExpandClick = () => {
-        setExpanded(!expanded);
-    };
-
     return (
         <Grid container
             direction="row"
@@ -42,9 +24,10 @@ export default function RecipeReviewCard() {
             justifyContent="center"
             paddingTop="10px">
             <Grid item xs={8}>
-                <h1 style={{display: "flex", justifyContent: "center", fontFamily: 'Montserrat',fontStyle: "normal",fontWeight: "600",fontSize: "48px",lineHeight: "36px"
+                <h1 style={{
+                    display: "flex", justifyContent: "center", fontFamily: 'Montserrat', fontStyle: "normal", fontWeight: "600", fontSize: "48px", lineHeight: "36px"
                 }}>Recommended</h1>
-                <p style={{display: "flex", justifyContent: "center"}}>Nulla quis curabitur velit volutpat auctor bibendum consectetur sit.</p>
+                <p style={{ display: "flex", justifyContent: "center" }}>Nulla quis curabitur velit volutpat auctor bibendum consectetur sit.</p>
                 <Carousel>
                     <Carousel.Item>
                         <Typography component="div" style={{ display: "flex", justifyContent: "space-around" }}>
