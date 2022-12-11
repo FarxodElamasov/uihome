@@ -1,0 +1,63 @@
+.backImgBig {
+    background: url(../Img/unsplash_g39p1kDjvSY.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 571px;
+}
+
+.Centers1 {
+    height: 305px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.Centers2 {
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.HeadYozuv1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.salOnga1 {
+    display: flex;
+    justify-content: center;
+}
+
+.salOnga2 {
+    display: flex;
+    justify-content: center;
+}
+
+.tugma1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 11px 38px;
+    gap: 10px;
+    color: #FFFFFF;
+    background: #0061DF;
+    border-radius: 2px;
+    border: none;
+}
+
+.backQora1 {
+    background: rgba(0, 0, 0, 0.65);
+    height: 585px;
+    margin-top: -180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
