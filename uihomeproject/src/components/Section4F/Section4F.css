@@ -1,0 +1,181 @@
+.Main2 {
+    position: relative;
+}
+
+.center12 {
+    margin-top: -320px;
+    text-align: center;
+}
+
+.soz11 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #0D263B;
+    margin-bottom: 8px;
+}
+
+.soz12 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #696969;
+}
+
+.flexUchun {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.quti3 {
+    position: relative;
+}
+
+.asosDivhcha1 {
+    text-align: center;
+}
+
+.rasmlarCard11 {
+    position: absolute;
+    top: 220px;
+    right: 22px;
+    padding: 1.3px 1.9px 1.2px 1.8px;
+    background: #fff;
+    border-radius: 100%;
+}
+
+.rasmlarCard1 {
+    width: 100%;
+}
+
+.asosSoz1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #0D263B;
+    margin-top: 24px;
+    margin-left: 20px;
+}
+
+.asosSoz2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #696969;
+    margin-top: -8px;
+    margin-left: 20px;
+}
+
+.kichikSozlar1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #696969;
+    margin-top: 8px;
+}
+
+.divBackLine1 {
+    background: #E6E9EC;
+    height: 1.5px;
+}
+
+.divQuti3 {
+    border: 1px solid #E6E9EC;
+    border-radius: 3px;
+}
+
+.Summasi1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: line-through;
+    color: #696969;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+.Summasi2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D263B;
+    margin-top: -14px;
+    margin-left: 20px;
+
+}
+
+.TepadanTopMargin {
+    position: relative;
+    margin-top: 44px;
+}
+
+.divUmumiy1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rasmYonga1 {
+    margin-top: 30px;
+    margin-right: 25px;
+    color: #d3d3d3;
+}
+
+.btnOrqaga {
+    margin-top: 120px;
+    margin-right: 120px;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.6);
+}
+
+.btnOldinga {
+    margin-top: 120px;
+    margin-left: 120px;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.6);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid rgb(150, 150, 150);
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 20px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 1px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+.Main2 {
+    margin-bottom: 48px;
+}

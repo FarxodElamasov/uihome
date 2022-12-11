@@ -1,10 +1,13 @@
 import React from 'react'
+import Section3F from './components/Section3F/Section3F'
+import Section4F from './components/Section4F/Section4F'
+import "./App.css"
 
 export default function App() {
   return (
     <>
-<div>UI Home</div>
-<div>Boshladik 11.11.2022</div>
+      <Section3F />
+      <Section4F />
     </>
   )
 }
